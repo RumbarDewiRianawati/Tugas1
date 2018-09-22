@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="Biodata">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foto"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:text="  NAMA"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textStyle="bold"
+        android:text="   Rumbar Dewi Rianawati"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:text="  NIM"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:text="   A11.2016.09395"
+        android:textStyle="bold"
+        android:textSize="15dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:text="  HOBBY"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textStyle="bold"
+        android:text="   Bermain Game \n   Belanja"
+        android:textSize="15dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="  ADDRESS"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="   Jl. Palir Lestari IV, Ngaliyan ,Semarang"
+        android:paddingBottom="30dp"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="90dp"
+        android:text="Phone Number"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="callnumber"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="10dp"
+        android:text="Site Address"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="openurl"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="10dp"
+        android:text="Location"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="showmap"
+        />
+
+
+</LinearLayout>
